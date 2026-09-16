@@ -1,0 +1,56 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Build output
+build/
+dist/
+
+# Backups
+*.bak
+
+# Downloaded / duplicate FFmpeg artifacts
+/ffmpeg
+ffmpeg-9.0.1.zip
+ffmpeg-osx.zip
+
+# Generated test/debug media
+patched.webm
+raw.png
+raw.webm
+test.mp4
+
+ui_chroma_panel.png
+ui_drop_screen.png
+ui_editor_screen.png
+
+wysiwyg_exact.png
+wysiwyg_frames/
+wysiwyg_out.webm
+wysiwyg_test.mp4
+wysiwyg_webm_frame.png
+
+# Local/build artifacts
+.DS_Store
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated test artifacts
+wysiwyg_frames/
+wysiwyg_test.mp4
+wysiwyg_exact.png
+wysiwyg_out.webm
+wysiwyg_webm_frame.png
+patched.webm
+raw.webm
